@@ -8,7 +8,7 @@ app.get("/",(req,res)=>{
  return res.status(200).json({status:200,message:"hello this is aws level 1"})
 })
 app.get('/health',(rrq,res)=>{
- return res.status(200).json({message:"everything is working correctly"})
+ return res.status(200).json({message:"everything is working correctly on health checkroute"})
 })
 
 const port=process.env.PORT || 5000
